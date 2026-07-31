@@ -49,7 +49,7 @@ model = init_chat_model("deepseek-chat",
 agent = create_agent(
     model=model,
     tools=[get_weather, calculate],
-    system_prompt="你是一个乐于助人的助手，会使用工具来回答问题。",
+    system_prompt="你是一个专业的助手，会使用工具来回答问题。",
 )
 # 步骤 3：运行 Agent
 
